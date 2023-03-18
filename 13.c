@@ -5,6 +5,7 @@ FILE*fp=NULL;
 char  cout;
 int i=0;
 clrscr();
+  printf("program to calculate total character in file");
 fp=fopen("m.text","r");
 if(fp==NULL){
 
