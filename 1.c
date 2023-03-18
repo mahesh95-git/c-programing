@@ -2,7 +2,7 @@
 #include<conio.h>
 void sum(int a,int b){
 int multi=0;
-    printf("multiplication of tow number is:%d",multi=a+b);
+    printf("multiplication of tow number is:%d",multi=a*b);
 }
 void main(){
     int a,b;
