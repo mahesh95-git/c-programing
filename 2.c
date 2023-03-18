@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
-void sum_10_number(){
-     int sum = 0;
-    for (int i = 1; i <= 10; i++)
-    { 
-        sum += i;
-    }
-    printf("addition 10 number is:%d",sum);
-}
+int square(int a){
+   int square;
+return square=a*b;}
 void main(){
-    printf("functions without arguments and without return values\n");
-    sum_10_number();
+     int a,sq;
+    printf("functions with arguments and with return values\n");
+     printf("program to caclulate square of number\n");
+     printf("enter a number:");
+     scanf("%d",&a);
+    sq=square(a);
+     printf(" square of %d is=%d",a,sq);
 }
