@@ -11,11 +11,11 @@ void main(){
     union student a;
     printf("Write a program based on union\n");
 printf("\nenter a rollno:");
-scanf("%d",a.rollno);
+scanf("%d",&a.rollno);
 printf("enter your name:");
-scanf("%s",a.name);
+scanf("%s",&a.name);
 printf("enter address:");
-scanf("%s",a.address);
+scanf("%s",&a.address);
 printf("=========================\n");
 printf("rollno:%d\n",a.rollno);
 printf("name:%s\n",a.name);
