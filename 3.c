@@ -1,32 +1,22 @@
-#include <stdio.h>
-#include <conio.h>
-int swi(int a, int b, int c);
-void main()
-{
-    int temp = 0, a, b, c;
-    printf("function with arguments and with return values\n");
-    printf("+=1\n-=2\n*=3\n/=4\n%=5\n");
-    printf("enter your choice:");
-    scanf("%d", &c);
-    printf("enter two number:");
-    scanf("%d%d", &a, &b);
-    printf("%d", temp = swi(a, b, c));
+#include<stdio.h>
+#include<conio.h>
+int sumarray(int a[]){
+	   int sum=0;
+	   for(i=0;i<size;i++){
+	   sum+=a[i];
+	   }
+
+return sum;}
+void main(){
+
+int a,array[50],sum=0;
+printf("program to calculate array element sum\n");
+printf("enter size of array:");
+ scanf("%d",&a); 
+printf("enter a %d array element:");
+for(int i=0;i<a;i++){
+scanf("%d",&array[i]);
 }
-int swi(int a,int b,int c)
-    {
-    int temp = 0;
-    switch (c)
-    {
-    case 1:
-        return temp = a + b;
-
-    case 2:
-        return temp = a - b;
-
-    case 3:
-        return temp = a * b;
-    case 4:
-        return temp = a / b;
-    case 5:
-        return temp = a % b;
-    }}
+sum=sumarray(array);
+printf("sum of array element is%d",sum);
+}
