@@ -2,7 +2,7 @@
 #include<conio.h>
 int square(int a){
    int square;
-return square=a*b;}
+return square=a*a;}
 void main(){
      int a,sq;
     printf("functions with arguments and with return values\n");
