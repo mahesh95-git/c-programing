@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void sum(int a,int b){
+void multi(int a,int b){
 int multi=0;
     printf("multiplication of tow number is:%d",multi=a*b);
 }
