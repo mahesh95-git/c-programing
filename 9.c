@@ -10,6 +10,8 @@ struct student{
 void main(){
     struct student a;
     float total;
+    int i;
+    clrscr();
  //   printf("Write programs which create student structure which accept stud rollno, student name, address, subject marks, and percentage and display same on screen");
 printf("\nenter sa rollno:");
 scanf("%d",&a.rollno);
@@ -30,22 +32,18 @@ printf("DBMS:");
 scanf("%d",&a.array[4]);
 
 printf("=====================================\n");
-printf("rollno:%d\n",a.rollno);
-printf("name:%s\n",a.name);
-printf("address:%s\n",a.address);
-printf("c part 2:%d",a.array[0]);
-printf("wed :%d\n",a.array[1]);
-printf("HRM:%d\n",a.array[2]);
-printf("operating system:%d\n",a.array[3]);
-printf("DBMS:%d\n",a.array[4]);
 
-for(int i=0;i<5;i++){
+
+for( i=0;i<5;i++){
     total+=a.array[i];
-    
+
     }
 
    a.percentage=((total/500)*100);
-printf("%f\n",a.percentage);
-printf("=========================================");
+ printf("RollNo\tName\tAddress\tpercentage\n");
+ printf("%d\t%s\t%s\t%f",a.rollno,a.name,a.address,a.percentage);
 
-}
+printf("\n=========================================");
+
+getch();}
+
