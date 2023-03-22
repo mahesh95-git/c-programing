@@ -6,6 +6,7 @@ void main(){
      int *a;
    int b[5];
    a=b;
+    clrscr();
 printf("Write a programs based on Pointer\n");
    printf("enter  five element of array:");
    for(int i=0;i<5;i++){
@@ -19,4 +20,4 @@ printf("Write a programs based on Pointer\n");
     a++;
    }
    
-}
+getch();}
